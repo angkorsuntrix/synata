@@ -2,14 +2,13 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
 
-group :production
+group :production do
 	gem 'pg'
 end
 
-group :development
+group :development do
 	gem 'mysql2', '~> 0.3.9'
 end
-
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
